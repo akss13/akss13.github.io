@@ -11,8 +11,9 @@ main {
 }
 
 .intro {
-  text-align: justify;
+  text-align: start;
   /* text-justify: inter-word; */
+  /* text-align-last: justify; */
   font-family: 'Antic';
   margin-top: -30px;
 }
