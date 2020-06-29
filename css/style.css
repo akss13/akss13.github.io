@@ -6,9 +6,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-main {
-  flex: 1 0 auto;
-}
 
 .intro {
   text-align: start;
@@ -18,19 +15,18 @@ main {
   margin-top: -30px;
 }
 
+.introsym {
+  margin-top: -20px;
+}
+
 .download {
  font-size: 30px;
- /* margin-bottom: 10px; */
- margin-top: 0px;
- float: right;
+ display: inline;
+ vertical-align: middle;
 }
 
 .sym {
-  margin-top: 8px;
   font-size: 30px;
+  vertical-align: middle;
 }
 
-.padown {
-  padding: 0%;
-  margin: 50%;
-}
