@@ -14,6 +14,7 @@ main {
   text-align: justify;
   text-justify: inter-word;
   font-family: 'Antic';
+  margin-top: -30px;
 }
 
 .download {
