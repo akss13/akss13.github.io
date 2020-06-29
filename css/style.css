@@ -1,0 +1,26 @@
+body {
+background-color:#2a2c30;
+}
+
+.intro {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Antic';
+}
+
+.download {
+ font-size: 30px;
+ /* margin-bottom: 10px; */
+ margin-top: 0px;
+ float: right;
+}
+
+.sym {
+  margin-top: 8px;
+  font-size: 30px;
+}
+
+.padown {
+  padding: 0%;
+  margin: 50%;
+}
