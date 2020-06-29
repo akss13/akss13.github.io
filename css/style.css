@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 .intro {
   text-align: start;
   /* text-justify: inter-word; */
