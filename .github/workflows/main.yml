@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.event.client_payload.ref }}
-          submodules: recursive
+          # submodules: true
       - run: | 
           echo ${{ github.event.client_payload.sha }}
           git config --global user.name "akss13"
