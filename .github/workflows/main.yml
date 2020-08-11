@@ -9,12 +9,12 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.event.client_payload.ref }}
-          # submodules: true
+          submodules: true
       - run: | 
           echo ${{ github.event.client_payload.sha }}
           git config --global user.name "akss13"
           git config --global user.email "aakarsh.s.saini@gmail.com"
-          git submodule update --remote --merge
+          git submodule update
           git add -A
           git commit -a -m "updated submodules"
           git push
