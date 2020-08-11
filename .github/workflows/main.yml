@@ -11,4 +11,6 @@ jobs:
           ref: ${{ github.event.client_payload.ref }}
       - run: | 
           echo ${{ github.event.client_payload.sha }}
+          git config --global user.name "akss13"
+          git config --global user.email "aakarsh.s.saini@gmail.com"
           git submodule update --remote --merge
