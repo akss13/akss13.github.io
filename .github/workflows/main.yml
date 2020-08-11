@@ -17,4 +17,5 @@ jobs:
           git submodule update --remote --merge
           git add -A
           git commit -a -m "updated submodules"
+          git pull --allow-unrelated-histories
           git push
